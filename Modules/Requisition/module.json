@@ -1,0 +1,13 @@
+{
+    "name": "Requisition",
+    "alias": "requisition",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Requisition\\Providers\\RequisitionServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
