@@ -72,7 +72,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--end: Datatable-->
+                  
                 </div>
             </div>
             <!--end::Card-->
