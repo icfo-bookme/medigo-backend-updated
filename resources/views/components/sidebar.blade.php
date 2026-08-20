@@ -132,8 +132,6 @@
 </div>
 <script>
 
-
-
 function find_menu(on_this) {
     let element = $(".menu-submenu");
     let inputValue = on_this.value.trim().toLowerCase();

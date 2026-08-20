@@ -1,0 +1,13 @@
+{
+    "name": "AccountNew",
+    "alias": "accountnew",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\AccountNew\\Providers\\AccountNewServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

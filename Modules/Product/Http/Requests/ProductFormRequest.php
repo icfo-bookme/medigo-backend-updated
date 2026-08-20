@@ -24,12 +24,13 @@ class ProductFormRequest extends FormRequest
 
         $this->rules['brand_id']    = ['required'];
         $this->rules['product_id']  = ['nullable'];
-
+ 
         $this->rules['brief_description'] = ['nullable'];
         $this->rules['medical_overview'] = ['nullable'];
         $this->rules['quick_tips'] = ['nullable'];
         $this->rules['disclaimer'] = ['nullable'];
         $this->rules['indication'] = ['nullable'];
+        $this->rules['yt_video'] = ['nullable'];
 
         $this->rules['generic_id']  = ['required'];
         $this->rules['category_id'] = ['required'];

@@ -15,7 +15,7 @@ class Product extends BaseModel
 {
     protected $fillable = [
         'name', 'slug', 'code', 'brand_id', 'category_id', 'generic_id', 'barcode_symbology', 'image', 'status', 'brief_description', 'medical_overview',
-        'quick_tips', 'disclaimer', 'indication', 'product_type', 'created_by', 'modified_by'
+        'quick_tips', 'disclaimer', 'indication', 'product_type', 'created_by', 'modified_by', 'yt_video'
     ];
 
     public function brand()
@@ -319,7 +319,7 @@ class Product extends BaseModel
     }
 
     public function scopeApiQuickSelect($query){
-          return $query->select('id', 'slug', 'category_id', 'name', 'generic_id', 'brand_id', 'image', 'product_type')
+          return $query->select('id', 'slug', 'category_id', 'name', 'generic_id', 'brand_id', 'image', 'product_type','yt_video')
           ->with([
             'generic:id,generic_name',
             'company:id,name',

@@ -23,5 +23,6 @@
     "Salary": true,
     "Exchange": true,
     "Notification": true,
-    "Campaign": true
+    "Campaign": true,
+    "AccountNew": true
 }

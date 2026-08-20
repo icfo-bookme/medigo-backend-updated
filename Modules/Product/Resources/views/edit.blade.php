@@ -73,8 +73,17 @@
                                     @endif
                                 </x-form.selectbox>
 
+                                 <div class="form-group col-md-12">
+                                    <label for="" class="col-md-3 col-from-label">YouTube Video Link</label>
+                                    <div class="col-md-12">
+                                          <x-form.textbox labelName="YouTube Video Link" type="text" name="yt_video" id="yt_video" class="form-control" placeholder="YouTube Video Link (Optional)" value="{{ $product->yt_video }}" />
+                                    </div>
+                                </div>
+                               
+                              
 
-{{--                                <div class="form-group col-md-12">--}}
+
+{{--                                <div class="form-group col-md-12')}}">
 {{--                                    @php--}}
 
 {{--                                        $allSimilarProductIds = $product->similar_product_list->pluck('similar_product_id')->flatten()->toArray();--}}
@@ -133,6 +142,8 @@
                                     <input type="checkbox" id="product_type" name="product_type" value="2" {{  ($product->product_type == 2 ? ' checked' : '') }} style="height: 23px; width: 39px;">
                                     <label for="vehicle1"> Home Section Product</label><br>
                                 </div>
+
+                               
 
                             </div>
                         </div>
